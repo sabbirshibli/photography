@@ -1,6 +1,6 @@
-# Sabbir — Photography
+# Sabbir's Photography
 
-A minimalist, album-based photography portfolio. Static site — no build step, no backend. Two demo albums (Prague, Lisbon) are included with placeholder images so you can see the structure; replace them with your own.
+A minimalist, album-based photography portfolio. It's a static site. So no build step, no backend.
 
 ## Structure
 
@@ -16,15 +16,15 @@ images/<album-slug>/  → your actual photo files
 
 1. Export from Lightroom as normal — full size, no manual resizing needed.
 2. Create a folder: `images/your-city/`
-3. Add a `cover.jpg` (shown on the homepage) and your numbered photos, e.g. `01.jpg`, `02.jpg`.
+3. Add a `cover.jpg` (shown on the homepage) and the numbered photos, e.g. `01.jpg`, `02.jpg`.
 4. Open `data/albums.js` and add a new entry:
 
 ```js
 {
-  id: "your-city",
-  title: "Your City",
-  subtitle: "Country",
-  category: "Landscape",   // or "Architecture"
+  id: "album-id",
+  title: "Album Title",
+  subtitle: "Anything you like",
+  category: "Landscape",   // any suitable category
   cover: "images/your-city/cover.jpg",
   photos: [
     { src: "images/your-city/01.jpg", caption: "Short caption" },
@@ -33,17 +33,17 @@ images/<album-slug>/  → your actual photo files
 }
 ```
 
-5. Commit and push. That's it — no build step, no manual resizing.
+5. Commit and push. That's it, no build step, no manual resizing.
 
 ```bash
 git add .
-git commit -m "Add your-city album"
+git commit -m "detailes on the commit"
 git push
 ```
 
 ## About image optimization
 
-You don't need to resize photos yourself. A GitHub Action (`.github/workflows/optimize-images.yml`) runs automatically on every push that touches `images/`: it resizes anything over 2000px on the long edge and compresses JPEGs to ~82% quality, then commits the optimized versions back to the repo for you (you'll see a second automatic commit from `image-optimizer-bot` a minute or two after your push).
+I don't need to resize photos yourself. A GitHub Action (`.github/workflows/optimize-images.yml`) runs automatically on every push that touches `images/`: it resizes anything over 2000px on the long edge and compresses JPEGs to ~82% quality, then commits the optimized versions back to the repo for me (I'll see a second automatic commit from `image-optimizer-bot` a minute or two after your push).
 
 So the actual workflow is just: **export from Lightroom → drop files into `images/<album>/` → commit → push.** Nothing in between.
 
@@ -64,11 +64,5 @@ Note: your first push of a new album will briefly be at full export size until t
 3. On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main / (root)**.
 4. Your site will be live at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
 
-Every time you `git push` after adding a new album, the live site updates automatically — no separate deploy step.
+Every time you `git push` after adding a new album, the live site updates automatically, no separate deploy step.
 
-## Before going live
-
-- [ ] Replace the placeholder photos in `images/prague/` and `images/lisbon/` (or delete those two albums from `data/albums.js` and the folders)
-- [ ] Update the Instagram and email links in `index.html` (search for `@your.handle` and `hello@example.com`)
-- [ ] Edit the About section bio text in `index.html` to sound like you
-- [ ] Swap the page title/description in the `<head>` of `index.html`
