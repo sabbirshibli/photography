@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabbir's Photography</title>
+<meta name="description" content="Stories in stillness, whispered through light.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#/" class="logo">Sabbir's <small>PHOTOGRAPHY</small></a>
+  <div class="nav-links">
+    <a href="#/">Work</a>
+    <a href="#about-section">About</a>
+    <a href="#contact-section">Contact</a>
+  </div>
+</nav>
+
+<!-- ============ HOME VIEW ============ -->
+<div class="view" id="view-home">
+  <header class="hero">
+    <svg class="hero-lines" viewBox="0 0 1600 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,400 L0,300 L60,300 L60,220 L120,220 L120,260 L180,260 L180,180 L200,180 L200,120 L220,120 L220,180 L260,180 L260,240 L320,240 L320,150 L340,150 L340,90 L360,90 L360,150 L380,150 L380,240 L440,240 L440,200 L500,200 L500,260 L560,260 L560,140 L600,140 L600,80 L620,80 L620,140 L660,140 L660,260 L720,260 L720,190 L760,190 L760,110 L780,110 L780,60 L800,60 L800,110 L820,110 L820,190 L860,190 L860,260 L920,260 L920,170 L960,170 L960,220 L1020,220 L1020,150 L1060,150 L1060,90 L1080,90 L1080,150 L1100,150 L1100,220 L1160,220 L1160,270 L1220,270 L1220,190 L1260,190 L1260,120 L1280,120 L1280,60 L1300,60 L1300,120 L1320,120 L1320,190 L1360,190 L1360,270 L1420,270 L1420,230 L1480,230 L1480,300 L1540,300 L1540,260 L1600,260 L1600,400 Z"
+        fill="none" stroke="var(--slate)" stroke-width="1.4"/>
+    </svg>
+    <div class="hero-content">
+      <div class="eyebrow">Whisper of Lights: A Photography Journal</div>
+      <h1>Sabbir's stories in stillness,<br>whispered through light.</h1>
+      <p class="sub">A running field record of the cities and horizons I've stopped to look at twice, made between research deadlines.</p>
+      <div class="hero-gear">Shot on Sony α6400</div>
+    </div>
+    <div class="scroll-cue"><span>Scroll</span><span class="stick"></span></div>
+  </header>
+
+  <section id="work">
+    <div class="section-head">
+      <h2>Albums</h2>
+    </div>
+    <div class="album-grid" id="albumGrid"></div>
+  </section>
+
+  <section id="about-section">
+    <div class="about-wrap">
+      <div>
+        <div class="eyebrow">About</div>
+        <h2 class="serif" style="font-style:italic; font-weight:400; font-size:clamp(1.8rem,3vw,2.4rem); margin-top:14px;">Fieldwork, of a different kind.</h2>
+        <p>By day I'm a PhD researcher working in computational genomics. By the days off, I'm usually somewhere unfamiliar with my camera and no fixed itinerary. Photography started as a way to slow down between conference deadlines, and turned into a habit of noticing how cities are built and how landscapes hold light.</p>
+        <p>Each album here is a place I've spent real time in, walked through more than once, photographed slowly rather than in passing.</p>
+        <div class="stat-row">
+          <div><span class="stat-num" id="statAlbums">0</span><span class="stat-label">Albums</span></div>
+          <div><span class="stat-num" id="statPhotos">0</span><span class="stat-label">Photographs</span></div>
+          <div><span class="stat-num serif">α6400</span><span class="stat-label">Current body</span></div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+          <rect width="400" height="500" fill="var(--paper-deep)"/>
+          <g stroke="var(--slate)" stroke-width="1" fill="none" opacity="0.55">
+            <path d="M40,460 L40,260 L90,260 L90,180 L130,180 L130,220 L170,220 L170,120 L190,120 L190,60 L210,60 L210,120 L230,120 L230,220 L270,220 L270,160 L310,160 L310,300 L360,300 L360,460 Z"/>
+            <circle cx="200" cy="90" r="4"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section">
+    <div class="contact-wrap">
+      <h2>Have a place in mind, or want a print? Let's talk.</h2>
+      <div class="contact-links">
+        <a href="https://instagram.com/whisperlightdiary" target="_blank" rel="noopener"><span>Instagram</span><span>@whisperlightdiary</span></a>
+        <a href="mailto:sabbirshibli@gmail.com"><span>Email</span><span>sabbirshibli@gmail.com</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Sabbir. All images reserved.</span>
+    <span>Built for the field, not the feed.</span>
+  </footer>
+</div>
+
+<!-- ============ ALBUM DETAIL VIEW ============ -->
+<div class="view" id="view-album">
+  <section style="padding-top:150px;">
+    <a class="back-link" href="#/">← All albums</a>
+    <div class="section-head">
+      <h2 id="albumTitle"></h2>
+      <div class="eyebrow" id="albumSubtitle"></div>
+    </div>
+    <div class="photo-grid" id="photoGrid"></div>
+  </section>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose">Close ✕</button>
+  <button class="lb-prev" id="lbPrev">‹</button>
+  <img id="lbImg" src="" alt="">
+  <div class="lightbox-meta">
+    <div class="tile-plate" id="lbPlate"></div>
+    <div class="tile-cap serif" id="lbCap"></div>
+  </div>
+  <button class="lb-next" id="lbNext">›</button>
+</div>
+
+<script src="data/albums.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
