@@ -44,13 +44,27 @@ const ALBUMS = [
   },
   {
     id: "jarvso_2026",
-    title: "Järvso 2026",
+    title: "Järvsö Trip 2026",
     subtitle: "Sweden",
     category: "Landscape",
     cover: "images/jarvso_2026/cover.jpg",
     photos: [
-      { src: "images/jarvso_2026/01.jpg", caption: "" },
-      { src: "images/jarvso_2026/02.jpg", caption: "" }
+      { src: "images/jarvso_2026/01.jpg", caption: "Birdseye View from Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/02.jpg", caption: "Birdseye View from Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/03.jpg", caption: "Birdseye View from Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/04.jpg", caption: "Birdseye View from Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/05.jpg", caption: "Birdseye View from Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/06.jpg", caption: "Järvsö Kyrka" },
+      { src: "images/jarvso_2026/07.jpg", caption: "Järvsö Kyrka" },
+      { src: "images/jarvso_2026/08.jpg", caption: "View from Helsingegården" },
+      { src: "images/jarvso_2026/09.jpg", caption: "Mountain bikers at Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/10.jpg", caption: "Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/11.jpg", caption: "Järvsö Kyrka" },
+      { src: "images/jarvso_2026/12.jpg", caption: "View from Helsingegården" },
+      { src: "images/jarvso_2026/13.jpg", caption: "Birdseye View from Järvsö Bergscykel Park" },
+      { src: "images/jarvso_2026/14.jpg", caption: "Järvsö Centrum" },
+      { src: "images/jarvso_2026/15.jpg", caption: "Järvsö Centrum" },
+      { src: "images/jarvso_2026/16.jpg", caption: "Helsingegården" }
     ]
   }
 ];
