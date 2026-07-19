@@ -85,5 +85,30 @@ const ALBUMS = [
       { src: "images/rattvik_2026/09.jpg", caption: "View of Lake Siljan" },
       { src: "images/rattvik_2026/10.jpg", caption: "Rättvik Naturmuseum" }
     ]
+  },
+  {
+    id: "stockholm_01_2026",
+    title: "Walkthorugh of Stockholm Gamla Stan",
+    subtitle: "Sweden",
+    category: "Architecture",
+    cover: "images/stockholm_01_2026/cover.jpg",
+    photos: [
+      { src: "images/stockholm_01_2026/01.jpg", caption: "Somewhere in Stockholm - Snap 01" },
+      { src: "images/stockholm_01_2026/02.jpg", caption: "Somewhere in Stockholm - Snap 02" },
+      { src: "images/stockholm_01_2026/03.jpg", caption: "Somewhere in Stockholm - Snap 03" },
+      { src: "images/stockholm_01_2026/04.jpg", caption: "Somewhere in Stockholm - Snap 04" },
+      { src: "images/stockholm_01_2026/05.jpg", caption: "Somewhere in Stockholm - Snap 05" },
+      { src: "images/stockholm_01_2026/06.jpg", caption: "Somewhere in Stockholm - Snap 06" },
+      { src: "images/stockholm_01_2026/07.jpg", caption: "Somewhere in Stockholm - Snap 07" },
+      { src: "images/stockholm_01_2026/08.jpg", caption: "Somewhere in Stockholm - Snap 08" },
+      { src: "images/stockholm_01_2026/09.jpg", caption: "Somewhere in Stockholm - Snap 09" },
+      { src: "images/stockholm_01_2026/10.jpg", caption: "Somewhere in Stockholm - Snap 10" },
+      { src: "images/stockholm_01_2026/11.jpg", caption: "Somewhere in Stockholm - Snap 11" },
+      { src: "images/stockholm_01_2026/12.jpg", caption: "Somewhere in Stockholm - Snap 12" },
+      { src: "images/stockholm_01_2026/13.jpg", caption: "Somewhere in Stockholm - Snap 13" },
+      { src: "images/stockholm_01_2026/14.jpg", caption: "Somewhere in Stockholm - Snap 14" },
+      { src: "images/stockholm_01_2026/15.jpg", caption: "Somewhere in Stockholm - Snap 15" },
+      { src: "images/stockholm_01_2026/16.jpg", caption: "Somewhere in Stockholm - Snap 16" }
+    ]
   }
 ];
