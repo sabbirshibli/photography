@@ -110,5 +110,34 @@ const ALBUMS = [
       { src: "images/stockholm_01_2026/15.jpg", caption: "Somewhere in Stockholm - Snap 15" },
       { src: "images/stockholm_01_2026/16.jpg", caption: "Somewhere in Stockholm - Snap 16" }
     ]
+  },
+  {
+    id: "santorini_2025",
+    title: "My Quiet Santorini Escape",
+    subtitle: "Greece",
+    category: "Landmarks",
+    cover: "images/santorini_2025/cover.jpg",
+    photos: [
+      { src: "images/santorini_2025/01.jpg", caption: "Somewhere in Santorini - Snap 01" },
+      { src: "images/santorini_2025/02.jpg", caption: "Somewhere in Santorini - Snap 02" },
+      { src: "images/santorini_2025/03.jpg", caption: "Somewhere in Santorini - Snap 03" },
+      { src: "images/santorini_2025/04.jpg", caption: "Somewhere in Santorini - Snap 04" },
+      { src: "images/santorini_2025/05.jpg", caption: "Somewhere in Santorini - Snap 05" },
+      { src: "images/santorini_2025/06.jpg", caption: "Somewhere in Santorini - Snap 06" },
+      { src: "images/santorini_2025/07.jpg", caption: "Somewhere in Santorini - Snap 07" },
+      { src: "images/santorini_2025/08.jpg", caption: "Somewhere in Santorini - Snap 08" },
+      { src: "images/santorini_2025/09.jpg", caption: "Somewhere in Santorini - Snap 09" },
+      { src: "images/santorini_2025/10.jpg", caption: "Somewhere in Santorini - Snap 10" },
+      { src: "images/santorini_2025/11.jpg", caption: "Somewhere in Santorini - Snap 11" },
+      { src: "images/santorini_2025/12.jpg", caption: "Somewhere in Santorini - Snap 12" },
+      { src: "images/santorini_2025/13.jpg", caption: "Somewhere in Santorini - Snap 13" },
+      { src: "images/santorini_2025/14.jpg", caption: "Somewhere in Santorini - Snap 14" },
+      { src: "images/santorini_2025/15.jpg", caption: "Somewhere in Santorini - Snap 15" },
+      { src: "images/santorini_2025/16.jpg", caption: "Somewhere in Santorini - Snap 16" },
+      { src: "images/santorini_2025/17.jpg", caption: "Somewhere in Santorini - Snap 17" },
+      { src: "images/santorini_2025/18.jpg", caption: "Somewhere in Santorini - Snap 18" },
+      { src: "images/santorini_2025/19.jpg", caption: "Somewhere in Santorini - Snap 19" },
+      { src: "images/santorini_2025/20.jpg", caption: "Somewhere in Santorini - Snap 20" }
+    ]
   }
 ];
