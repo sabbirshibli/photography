@@ -24,22 +24,22 @@ const ALBUMS = [
     category: "Architecture",
     cover: "images/copenhagen_2026/cover.jpg",
     photos: [
-      { src: "images/copenhagen_2026/01.jpg", caption: "" },
-      { src: "images/copenhagen_2026/02.jpg", caption: "" },
-      { src: "images/copenhagen_2026/03.jpg", caption: "" },
-      { src: "images/copenhagen_2026/04.jpg", caption: "" },
-      { src: "images/copenhagen_2026/05.jpg", caption: "" },
-      { src: "images/copenhagen_2026/06.jpg", caption: "" },
-      { src: "images/copenhagen_2026/07.jpg", caption: "" },
-      { src: "images/copenhagen_2026/08.jpg", caption: "" },
-      { src: "images/copenhagen_2026/09.jpg", caption: "" },
-      { src: "images/copenhagen_2026/10.jpg", caption: "" },
-      { src: "images/copenhagen_2026/11.jpg", caption: "" },
-      { src: "images/copenhagen_2026/12.jpg", caption: "" },
-      { src: "images/copenhagen_2026/13.jpg", caption: "" },
-      { src: "images/copenhagen_2026/14.jpg", caption: "" },
-      { src: "images/copenhagen_2026/15.jpg", caption: "" },
-      { src: "images/copenhagen_2026/16.jpg", caption: "" }
+      { src: "images/copenhagen_2026/01.jpg", caption: "Somewhere in Copenhagen - Snap 01" },
+      { src: "images/copenhagen_2026/02.jpg", caption: "Somewhere in Copenhagen - Snap 02" },
+      { src: "images/copenhagen_2026/03.jpg", caption: "Somewhere in Copenhagen - Snap 03" },
+      { src: "images/copenhagen_2026/04.jpg", caption: "Somewhere in Copenhagen - Snap 04" },
+      { src: "images/copenhagen_2026/05.jpg", caption: "Somewhere in Copenhagen - Snap 05" },
+      { src: "images/copenhagen_2026/06.jpg", caption: "Somewhere in Copenhagen - Snap 06" },
+      { src: "images/copenhagen_2026/07.jpg", caption: "Somewhere in Copenhagen - Snap 07" },
+      { src: "images/copenhagen_2026/08.jpg", caption: "Somewhere in Copenhagen - Snap 08" },
+      { src: "images/copenhagen_2026/09.jpg", caption: "Somewhere in Copenhagen - Snap 09" },
+      { src: "images/copenhagen_2026/10.jpg", caption: "Somewhere in Copenhagen - Snap 10" },
+      { src: "images/copenhagen_2026/11.jpg", caption: "Somewhere in Copenhagen - Snap 11" },
+      { src: "images/copenhagen_2026/12.jpg", caption: "Somewhere in Copenhagen - Snap 12" },
+      { src: "images/copenhagen_2026/13.jpg", caption: "Somewhere in Copenhagen - Snap 13" },
+      { src: "images/copenhagen_2026/14.jpg", caption: "Somewhere in Copenhagen - Snap 14" },
+      { src: "images/copenhagen_2026/15.jpg", caption: "Somewhere in Copenhagen - Snap 15" },
+      { src: "images/copenhagen_2026/16.jpg", caption: "Somewhere in Copenhagen - Snap 16" }
     ]
   },
   {
@@ -65,6 +65,25 @@ const ALBUMS = [
       { src: "images/jarvso_2026/14.jpg", caption: "Järvsö Centrum" },
       { src: "images/jarvso_2026/15.jpg", caption: "Järvsö Centrum" },
       { src: "images/jarvso_2026/16.jpg", caption: "Helsingegården" }
+    ]
+  },
+  {
+    id: "rattvik_2026",
+    title: "Rättvik Daytrip 2026",
+    subtitle: "Sweden",
+    category: "Landscape",
+    cover: "images/rattvik_2026/cover.jpg",
+    photos: [
+      { src: "images/rattvik_2026/01.jpg", caption: "Rättvik Centrum" },
+      { src: "images/rattvik_2026/02.jpg", caption: "Traditional Handmade Craft Shop" },
+      { src: "images/rattvik_2026/03.jpg", caption: "Mountain view from Rättvik" },
+      { src: "images/rattvik_2026/04.jpg", caption: "Rättvik Church" },
+      { src: "images/rattvik_2026/05.jpg", caption: "Railway meets the horizon" },
+      { src: "images/rattvik_2026/06.jpg", caption: "View of Lake Siljan" },
+      { src: "images/rattvik_2026/07.jpg", caption: "View of Lake Siljan" },
+      { src: "images/rattvik_2026/08.jpg", caption: "View of Lake Siljan" },
+      { src: "images/rattvik_2026/09.jpg", caption: "View of Lake Siljan" },
+      { src: "images/rattvik_2026/10.jpg", caption: "Rättvik Naturmuseum" }
     ]
   }
 ];
