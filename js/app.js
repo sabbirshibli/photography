@@ -79,6 +79,25 @@
   });
   lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.classList.remove('open'); });
 
+  // ---------- Nav: scroll to a section on the home page, from anywhere ----------
+  function goToSection(sectionId){
+    if (viewAlbum.classList.contains('active')){
+      viewAlbum.classList.remove('active');
+      viewHome.classList.add('active');
+      history.replaceState(null, '', '#/');
+    }
+    // Wait a frame so the (now-visible) section has real layout to scroll to.
+    requestAnimationFrame(() => {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+  [['navWork','work'], ['navAbout','about-section'], ['navContact','contact-section']].forEach(([linkId, sectionId]) => {
+    document.getElementById(linkId).addEventListener('click', e => {
+      e.preventDefault();
+      goToSection(sectionId);
+    });
+  });
+
   // ---------- Router ----------
   function route(){
     const hash = location.hash || '#/';
