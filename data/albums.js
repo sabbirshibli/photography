@@ -18,7 +18,7 @@
 
 const ALBUMS = [
   {
-    id: "copenhaged_2026",
+    id: "copenhagen_2026",
     title: "Copenhagen 2026",
     subtitle: "Denmark",
     category: "Architecture",
@@ -138,6 +138,35 @@ const ALBUMS = [
       { src: "images/santorini_2025/18.jpg", caption: "Somewhere in Santorini - Snap 18" },
       { src: "images/santorini_2025/19.jpg", caption: "Somewhere in Santorini - Snap 19" },
       { src: "images/santorini_2025/20.jpg", caption: "Somewhere in Santorini - Snap 20" }
+    ]
+  },
+    {
+    id: "bergen_2026",
+    title: "Under the Bergen Sky",
+    subtitle: "Norway",
+    category: "Landmarks",
+    cover: "images/bergen_2026/cover.jpg",
+    photos: [
+      { src: "images/bergen_2026/01.jpg", caption: "Somewhere in Bergen - Snap 01" },
+      { src: "images/bergen_2026/02.jpg", caption: "Somewhere in Bergen - Snap 02" },
+      { src: "images/bergen_2026/03.jpg", caption: "Somewhere in Bergen - Snap 03" },
+      { src: "images/bergen_2026/04.jpg", caption: "Somewhere in Bergen - Snap 04" },
+      { src: "images/bergen_2026/05.jpg", caption: "Somewhere in Bergen - Snap 05" },
+      { src: "images/bergen_2026/06.jpg", caption: "Somewhere in Bergen - Snap 06" },
+      { src: "images/bergen_2026/07.jpg", caption: "Somewhere in Bergen - Snap 07" },
+      { src: "images/bergen_2026/08.jpg", caption: "Somewhere in Bergen - Snap 08" },
+      { src: "images/bergen_2026/09.jpg", caption: "Somewhere in Bergen - Snap 09" },
+      { src: "images/bergen_2026/10.jpg", caption: "Somewhere in Bergen - Snap 10" },
+      { src: "images/bergen_2026/11.jpg", caption: "Somewhere in Bergen - Snap 11" },
+      { src: "images/bergen_2026/12.jpg", caption: "Somewhere in Bergen - Snap 12" },
+      { src: "images/bergen_2026/13.jpg", caption: "Somewhere in Bergen - Snap 13" },
+      { src: "images/bergen_2026/14.jpg", caption: "Somewhere in Bergen - Snap 14" },
+      { src: "images/bergen_2026/15.jpg", caption: "Somewhere in Bergen - Snap 15" },
+      { src: "images/bergen_2026/16.jpg", caption: "Somewhere in Bergen - Snap 16" },
+      { src: "images/bergen_2026/17.jpg", caption: "Somewhere in Bergen - Snap 17" },
+      { src: "images/bergen_2026/18.jpg", caption: "Somewhere in Bergen - Snap 18" },
+      { src: "images/bergen_2026/19.jpg", caption: "Somewhere in Bergen - Snap 19" },
+      { src: "images/bergen_2026/20.jpg", caption: "Somewhere in Bergen - Snap 20" }
     ]
   }
 ];
