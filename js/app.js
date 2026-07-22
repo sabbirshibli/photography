@@ -5,12 +5,20 @@
 
   window.addEventListener('scroll', () => nav.classList.toggle('solid', window.scrollY > 40));
 
+  // Grid views use a small "-thumb" version of each image (generated
+  // automatically by the optimize-images GitHub Action); the lightbox
+  // uses the full-size file. Falls back to the full image if no thumb
+  // exists yet (e.g. right after adding a photo, before the Action runs).
+  function thumbOf(src){
+    return src.replace(/(\.[a-zA-Z]+)$/, '-thumb$1');
+  }
+
   // ---------- Home: album grid ----------
   function renderHome(){
     const grid = document.getElementById('albumGrid');
     grid.innerHTML = ALBUMS.map(a => `
       <a class="album-card" href="#/album/${a.id}">
-        <img src="${a.cover}" alt="${a.title}" loading="lazy">
+        <img src="${thumbOf(a.cover)}" onerror="this.onerror=null;this.src='${a.cover}';" alt="${a.title}" loading="lazy">
         <div class="album-caption">
           <div class="album-eyebrow">${a.category}</div>
           <div class="album-title serif">${a.title}${a.subtitle ? ', ' + a.subtitle : ''}</div>
@@ -34,7 +42,7 @@
     const grid = document.getElementById('photoGrid');
     grid.innerHTML = album.photos.map((p, i) => `
       <div class="tile" data-idx="${i}">
-        <img src="${p.src}" alt="${p.caption || album.title}" loading="lazy">
+        <img src="${thumbOf(p.src)}" onerror="this.onerror=null;this.src='${p.src}';" alt="${p.caption || album.title}" loading="lazy">
         <div class="tile-caption">
           <div class="tile-plate">Plate No. ${String(i+1).padStart(3,'0')}</div>
           <div class="tile-cap serif">${p.caption || ''}</div>

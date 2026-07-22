@@ -1,0 +1,46 @@
+name: Optimize images
+
+# Runs whenever photos are pushed to images/. Resizes/compresses anything
+# oversized, then commits the optimized files back automatically.
+# You never need to run this by hand.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "images/**"
+  workflow_dispatch: {}   # lets you click "Run workflow" manually in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    # Prevents this workflow from re-triggering itself in a loop when it
+    # commits the optimized images back.
+    if: ${{ !contains(github.event.head_commit.message, '[skip optimize]') }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install sharp
+        run: npm install sharp --no-save
+
+      - name: Optimize images
+        run: node scripts/optimize-images.js
+
+      - name: Commit optimized images (if any changed)
+        run: |
+          git config user.name "image-optimizer-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain images)" ]; then
+            git add images
+            git commit -m "Auto-optimize images [skip optimize]"
+            git push
+          else
+            echo "Nothing to optimize."
+          fi
