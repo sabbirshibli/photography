@@ -168,5 +168,34 @@ const ALBUMS = [
       { src: "images/bergen_2026/19.jpg", caption: "Somewhere in Bergen - Snap 19" },
       { src: "images/bergen_2026/20.jpg", caption: "Somewhere in Bergen - Snap 20" }
     ]
+  },
+    {
+    id: "gothenburg_2026",
+    title: "Wandering Gothenburg’s Edge",
+    subtitle: "Sweden",
+    category: "Landmarks",
+    cover: "images/gothenburg_2026/cover.jpg",
+    photos: [
+      { src: "images/gothenburg_2026/01.jpg", caption: "Somewhere in Gothenburg - Snap 01" },
+      { src: "images/gothenburg_2026/02.jpg", caption: "Somewhere in Gothenburg - Snap 02" },
+      { src: "images/gothenburg_2026/03.jpg", caption: "Somewhere in Gothenburg - Snap 03" },
+      { src: "images/gothenburg_2026/04.jpg", caption: "Somewhere in Gothenburg - Snap 04" },
+      { src: "images/gothenburg_2026/05.jpg", caption: "Somewhere in Gothenburg - Snap 05" },
+      { src: "images/gothenburg_2026/06.jpg", caption: "Somewhere in Gothenburg - Snap 06" },
+      { src: "images/gothenburg_2026/07.jpg", caption: "Somewhere in Gothenburg - Snap 07" },
+      { src: "images/gothenburg_2026/08.jpg", caption: "Somewhere in Gothenburg - Snap 08" },
+      { src: "images/gothenburg_2026/09.jpg", caption: "Somewhere in Gothenburg - Snap 09" },
+      { src: "images/gothenburg_2026/10.jpg", caption: "Somewhere in Gothenburg - Snap 10" },
+      { src: "images/gothenburg_2026/11.jpg", caption: "Somewhere in Gothenburg - Snap 11" },
+      { src: "images/gothenburg_2026/12.jpg", caption: "Somewhere in Gothenburg - Snap 12" },
+      { src: "images/gothenburg_2026/13.jpg", caption: "Somewhere in Gothenburg - Snap 13" },
+      { src: "images/gothenburg_2026/14.jpg", caption: "Somewhere in Gothenburg - Snap 14" },
+      { src: "images/gothenburg_2026/15.jpg", caption: "Somewhere in Gothenburg - Snap 15" },
+      { src: "images/gothenburg_2026/16.jpg", caption: "Somewhere in Gothenburg - Snap 16" },
+      { src: "images/gothenburg_2026/17.jpg", caption: "Somewhere in Gothenburg - Snap 17" },
+      { src: "images/gothenburg_2026/18.jpg", caption: "Somewhere in Gothenburg - Snap 18" },
+      { src: "images/gothenburg_2026/19.jpg", caption: "Somewhere in Gothenburg - Snap 19" },
+      { src: "images/gothenburg_2026/20.jpg", caption: "Somewhere in Gothenburg - Snap 20" }
+    ]
   }
 ];
