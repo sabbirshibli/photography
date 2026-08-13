@@ -185,7 +185,6 @@ const ALBUMS = [
       { src: "images/gothenburg_2026/07.jpg", caption: "Somewhere in Gothenburg - Snap 07" },
       { src: "images/gothenburg_2026/08.jpg", caption: "Somewhere in Gothenburg - Snap 08" },
       { src: "images/gothenburg_2026/09.jpg", caption: "Somewhere in Gothenburg - Snap 09" },
-      { src: "images/gothenburg_2026/10.jpg", caption: "Somewhere in Gothenburg - Snap 10" },
       { src: "images/gothenburg_2026/11.jpg", caption: "Somewhere in Gothenburg - Snap 11" },
       { src: "images/gothenburg_2026/12.jpg", caption: "Somewhere in Gothenburg - Snap 12" },
       { src: "images/gothenburg_2026/13.jpg", caption: "Somewhere in Gothenburg - Snap 13" },
